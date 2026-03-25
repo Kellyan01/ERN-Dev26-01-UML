@@ -3926,7 +3926,7 @@
 											"top": 1415,
 											"width": 170.50439453125,
 											"height": 13,
-											"text": "Action la vérifier la réponse"
+											"text": "la vérifier la réponse"
 										},
 										{
 											"_type": "LabelView",
@@ -8108,7 +8108,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGdJCgLjLIMilI="
 					},
-					"name": "Action la vérifier la réponse"
+					"name": "la vérifier la réponse"
 				},
 				{
 					"_type": "UMLDecisionNode",
@@ -9058,7 +9058,7 @@
 									"font": "Arial;13;0",
 									"left": 8,
 									"top": 8,
-									"width": 1345,
+									"width": 1529,
 									"height": 1177,
 									"nameLabel": {
 										"$ref": "AAAAAAGdJUu3RrpcejU="
@@ -9165,14 +9165,14 @@
 											"left": 146,
 											"top": 80,
 											"width": 1,
-											"height": 1065
+											"height": 1103
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 104,
 									"top": 40,
 									"width": 83.57177734375,
-									"height": 1105,
+									"height": 1143,
 									"nameCompartment": {
 										"$ref": "AAAAAAGdJUznOrptSSc="
 									},
@@ -9278,14 +9278,14 @@
 											"left": 460,
 											"top": 80,
 											"width": 1,
-											"height": 1143
+											"height": 1103
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 424,
 									"top": 40,
 									"width": 72.736328125,
-									"height": 1183,
+									"height": 1143,
 									"nameCompartment": {
 										"$ref": "AAAAAAGdJU0DibqNPsU="
 									},
@@ -11963,6 +11963,136 @@
 									"activation": {
 										"$ref": "AAAAAAGdJVWovbzRewQ="
 									}
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJV0J4Lzz2l4=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 984,
+									"top": 88,
+									"width": 329,
+									"height": 100,
+									"text": "Etape 4 : Scénario Alternatif\nUn champ est vide\n4.1 Afficher un message d'erreur à l'utilisateur\n4.2 Demander à l'utilisateur de se corriger\n4.3 L'utilisateur se corrige\nDans le scénario nominal, les champs sont remplis"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJV4oCLz6i9c=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 984,
+									"top": 216,
+									"width": 328,
+									"height": 105,
+									"text": "Etape 5 : Scénario Alternatif\nUn format n'est pas correct\n5.1 Afficher un message d'erreur à l'utilisateur\n5.2 Demander à l'utilisateur de se corriger\n5.3 L'utilisateur se corrige\nDans le scénario nominal, les formats sont correctes"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJV820rz/X+c=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 992,
+									"top": 352,
+									"width": 312,
+									"height": 113,
+									"text": "Etape 9 : Scénario Alternatif\nUn champ est vide\n9.1 Afficher un message d'erreur à l'utilisateur\n9.2 Demander à l'utilisateur de se corriger\n9.3 L'utilisateur se corrige\nDans le scénario nominal, les champs sont remplis"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJV+Vc70EQg8=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 1000,
+									"top": 480,
+									"width": 337,
+									"height": 120,
+									"text": "Etape 10 : Scénario Alternatif\nUn format n'est pas correct\n10.1 Afficher un message d'erreur à l'utilisateur\n10.2 Demander à l'utilisateur de se corriger\n10.3 L'utilisateur se corrige\nDans le scénario nominal, les formats sont correctes"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJWAZG70JyN4=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 1016,
+									"top": 608,
+									"width": 384,
+									"height": 98,
+									"text": "Etape 12 : Scénario d'Erreur\nL'utilisateur a annulé la suppression\n12.1 Envoyer un message de confirmation de l'annulation\n12.2 Arrêter le scénario\nDans le scénario nominal, l'utilisateur confirme la suppression en envoyant son mot de passe"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJWFGGr0OUDc=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 1024,
+									"top": 720,
+									"width": 345,
+									"height": 98,
+									"text": "Etape 13 : Scénario d'Erreur\nCommunication impossible avec la BDD\n13.1 Afficher un message d'erreur à l'utilisateur\n13.2 Arrêter le scénario\nDans le scénario nominal, la communication est correcte"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJWJMw70VSSw=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 1072,
+									"top": 832,
+									"width": 344,
+									"height": 98,
+									"text": "Etape 16 : Scénario d'Erreur\nProblème de récupération des informations\n16.1 Afficher un message d'erreur à l'utilisateur\n16.2 Arrêter le scénario\nDans le scénario nominal, on récupère les données de l'utilisateur"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJWNiBb0ZEE8=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 1064,
+									"top": 944,
+									"width": 361,
+									"height": 98,
+									"text": "Etape 17 : Scénario d'Erreur\nLes mots de passe ne correspondent pas\n17.1 Afficher un message d'erreur à l'utilisateur\n17.2 Arrêter le scénario\nDans le scénario nominal, les mots de passe correspondent"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJWSGeL0fRwg=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 856,
+									"top": 1056,
+									"width": 328,
+									"height": 104,
+									"text": "Etape 13 : Scénario d'Erreur\nCommunication impossible avec la BDD\n13.1 Afficher un message d'erreur à l'utilisateur\n13.2 Arrêter le scénario\nDans le scénario nominal, la communication est correcte"
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGdJWS8UL0lWf4=",
+									"_parent": {
+										"$ref": "AAAAAAGdJUu3RrpasUM="
+									},
+									"font": "Arial;13;0",
+									"left": 1200,
+									"top": 1056,
+									"width": 312,
+									"height": 104,
+									"text": "Etape 21 : Scénario d'Erreur\nIl y a eu un problème de suppression\n21.1 Afficher un message d'erreur à l'utilisateur\n21.2 Arrêter le scénario\nDans le scénario nominal, la suppression s'est correctement effectuée"
 								}
 							]
 						}
